@@ -13,7 +13,6 @@ A collection of delicious docker recipes.
 
 ## Affiliates
 
-[![](https://bandwagonhost.com/templates/organicbandwagon/images/logo.png)](https://bandwagonhost.com/aff.php?aff=21106)
 [![](https://www.vultr.com/media/banner_1.png)](https://www.vultr.com/?ref=6821947)
 
 ## Todo
@@ -45,15 +44,15 @@ A collection of delicious docker recipes.
 
 - [x] airflow
 - [x] ambari
+- [x] cmak (~kafka-manager~)
+- [x] datax :cn:
 - [x] kafka-arm
-- [x] kafka-manager
 - [x] luigi
 - [x] nifi
 - [x] openrefine
 - [x] prestodb (official)
 - [x] prestosql (community)
 - [x] superset-arm
-- [x] zookeeper-arm
 
 ## IoT
 
@@ -64,6 +63,7 @@ A collection of delicious docker recipes.
 
 ## Automation
 
+- [x] cronicle
 - [x] drone-rsync-arm
 - [x] drone-scp-arm
 - [x] drone-ssh-arm
@@ -80,6 +80,7 @@ A collection of delicious docker recipes.
 - [x] ggr
 - [x] ggr-ui
 - [x] jsonwire-grid
+- [x] zookeeper-arm
 
 ## Monitor
 
@@ -114,6 +115,7 @@ A collection of delicious docker recipes.
 - [x] moodle :beetle:
 - [x] mosquitto
 - [x] motion-arm :+1:
+- [x] ndscheduler
 - [x] nginx
 - [x] ntopng
 - [x] nullmailer
@@ -127,6 +129,7 @@ A collection of delicious docker recipes.
 - [x] portia
 - [x] pure-ftpd
 - [x] redis-arm
+- [x] rehook
 - [x] rinetd
 - [x] rslsync
 - [x] rsyncd
@@ -151,16 +154,16 @@ A collection of delicious docker recipes.
 - [x] ffmpeg-arm
 - [x] ffserver :beetle:
 - [x] icecast
-- [x] live555
+- [x] live555 :camera:
 - [x] minidlna
 - [x] mpd
 - [x] murmur
-- [x] openmeetings
+- [x] openmeetings :camera:
 - [x] plex :moneybag:
 - [x] red5 :+1:
 - [x] red5-arm :construction:
 - [x] rtmp-client-arm :+1:
-- [x] rtmp-server
+- [x] rtmp-server :camera:
 - [x] shairplay-arm
 - [x] shoutcast
 - [x] tesseract
@@ -201,6 +204,7 @@ A collection of delicious docker recipes.
 ## Security
 
 - [x] aircrack-ng-arm
+- [x] amass
 - [x] bro
 - [x] clamav
 - [x] dsniff
@@ -212,6 +216,7 @@ A collection of delicious docker recipes.
 - [x] routersploit
 - [x] snort :beetle:
 - [x] sslsplit
+- [x] wafw00f
 - [x] webgoat
 
 ## Proxy
@@ -268,7 +273,8 @@ A collection of delicious docker recipes.
 - [x] chinadns
 - [x] dnscrypt
     - [x] dnscrypt-proxy
-    - [x] dnscrypt-wrapper
+    - [x] dnscrypt-server
+    - [x] ~dnscrypt-wrapper~
 - [x] dnsmasq
 - [x] dnsmasq-arm
 - [x] pdnsd
@@ -280,18 +286,25 @@ A collection of delicious docker recipes.
 - [x] browserless/chrome
 - [x] certbot
 - [x] codercom/code-server
-- [x] confluentinc/cp-kafka-mqtt
-- [x] confluentinc/cp-kafka-rest
+- [x] confluentinc
+  - [x] cp-kafka-mqtt
+  - [x] cp-kafka-rest
+  - [x] ksqldb-cli
+  - [x] ksqldb-server
 - [x] streamsets/datacollector
 - [x] daskdev
   - [x] dask
   - [x] dask-notebook
+- [x] appbaseio/dejavu :mag:
 - [x] cachethq/docker
 - [x] snowzach/doods
 - [x] drone/drone
 - [x] drupal
 - [x] elastichq/elasticsearch-hq
+- [x] elasticdump/elasticsearch-dump
 - [x] elk
+- [x] quay.io/coreos/etcd
+- [x] audreyt/ethercalc
 - [x] flogo/flogo-docker
 - [x] mher/flower
 - [x] ghost
@@ -305,29 +318,36 @@ A collection of delicious docker recipes.
     - [ ] python
 - [x] gogs/gogs :cn:
 - [x] haproxy
+- [x] jenkins
+    - [x] inbound-agent
+    - [x] jenkins
 - [x] jmxtrans/jmxtrans
 - [x] wurstmeister/kafka
+- [x] mailgun/kafka-pixy
 - [x] devopsfaith/krakend
+- [x] tootsuite/mastodon
 - [x] netdata/netdata
 - [x] nextcloud
 - [x] prom/prometheus
 - [x] sonatype/nexus3
 - [ ] jwilder/nginx-proxy
 - [x] jazzdd/phpvirtualbox
-- [x] jenkins
 - [x] sonatype/nexus3
 - [x] jupyter/notebook
 - [x] metabase/metabase
 - [x] metasploitframework/metasploit-framework :skull:
 - [x] minio/minio
 - [x] mongo
+- [x] ccrisan/motioneye
 - [x] neo4j
 - [x] erichough/nfs-server
 - [x] luzifer/nginx-sso
+- [x] n8nio/n8n
 - [x] odoo
 - [x] osixia/openldap
 - [x] kylemanna/openvpn
 - [x] campbellsoftwaresolutions/osticket
+- [x] outlinewiki/outline
 - [x] owncloud
 - [x] phpmyadmin
 - [x] pihole/pihole
@@ -353,12 +373,14 @@ A collection of delicious docker recipes.
       - [x] vnc
     - selenoid-ui
 - [x] sentry
+- [x] atmoz/sftp
 - [x] scrapinghub/splash
 - [x] teamatldocker
     - [x] confluence
     - [x] jira
 - [x] amancevice/superset
 - [x] v2ray/official :cn:
+- [x] mpromonet/v4l2rtspserver :camera:
 - [x] centurylink/watchtower
 - [x] anapsix/webdis
 - [x] wekanteam/wekan
@@ -394,3 +416,7 @@ __enter() {
 
 complete -F __enter enter
 ```
+
+## Stargazers over time
+
+[![Stargazers over time](https://starchart.cc/vimagick/dockerfiles.svg)](https://starchart.cc/vimagick/dockerfiles)
